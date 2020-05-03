@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Stemwijzer</title>
+</head>
+<body>
+
+	<div id='container' class='container'>
+		<div class="row">
+			<div id='main' class="col-md-12 mt-5 p-4 text-center main">
+
+				<button id='done_btn' class="btn btn-primary">Naar resultaat</button>
+
+				<button id='restart' class="btn btn-primary">Opnieuw</button>
+
+				<h2 id='title'>Stemwijzer</h2>
+				<h5 id='statement'></h5>
+
+				<button id='start_btn' class="btn btn-success">Start</button>
+				<button id='prev_btn'  class="btn btn-danger">Terug</button>
+
+				<button id='vote_btn_pro'	 class='btn btn-dark'>Eens</button>
+				<button id='vote_btn_contra' class='btn btn-dark'>Oneens</button>
+				<button id='vote_btn_none'	 class='btn btn-dark'>Geen van bijde</button>
+				<button id='vote_btn_skip'	 class='btn btn-dark'>Overslaan</button>
+
+				<button id='show_opinion' 		  class="btn btn-info">Meningen</button>
+				<button id='show_big_parties' 	  class="btn btn-info">Grote partijen</button>
+				<button id='show_secular_parties' class="btn btn-info">Seculiere partijen</button>
+
+				<div id='opinion'></div>
+
+				<div id='weighted_questions'></div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

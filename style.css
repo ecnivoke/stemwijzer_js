@@ -1,0 +1,13 @@
+body {
+
+	background-image: 	url('background.jpg');
+
+}
+
+.main {
+	background-color: 	white;
+}
+
+.selected {
+	color: 				red;
+}
